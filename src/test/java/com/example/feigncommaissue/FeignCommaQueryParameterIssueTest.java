@@ -17,7 +17,7 @@ public class FeignCommaQueryParameterIssueTest {
 
     @Test
     public void test() {
-        // Request genereated: https://postman-echo.com/get?param=first&param=second
+        // Request genereated: https://postman-echo.com/get?param=first%2Csecond
         postmanEchoClient.echo("first,second");
     }
 }
